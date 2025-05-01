@@ -1,8 +1,12 @@
-# Collab Sphere Backend
+# Collab Sphere 
 
 This repository contains for the **Collab Sphere** project, a collaborative platform designed to enhance team productivity and communication. The project also includes a Vue.js frontend located in the `collab-sphere` directory.
 
 ---
+
+[Watch Demo Video](https://drive.google.com/file/d/1gGrXuTS0a5IZwgTSUn2vwPwgNNRO3VXi/view?usp=sharing)
+
+
 
 ## Features
 * Backend:
