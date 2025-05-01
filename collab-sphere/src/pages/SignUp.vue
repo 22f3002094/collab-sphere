@@ -19,17 +19,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Username -->
-                <div>
-                    <label class="block text-sm font-medium text-gray-700">Username</label>
-                    <div class="mt-1 relative rounded-md shadow-sm">
-                        <input type="text" placeholder="Enter your username" v-model="form.username"
-                            class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-purple-500 focus:border-purple-500" />
-                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <AtSymbolIcon class="h-5 w-5 text-gray-400" />
-                        </div>
-                    </div>
-                </div>
+               
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700">Email</label>
@@ -73,14 +63,14 @@
 </template>
 
 <script>
-import { UserIcon, EnvelopeIcon, LockClosedIcon, AtSymbolIcon } from '@heroicons/vue/24/outline'
+import { UserIcon, EnvelopeIcon, LockClosedIcon } from '@heroicons/vue/24/outline'
 
 export default {
     components: {
         UserIcon,
         EnvelopeIcon,
         LockClosedIcon,
-        AtSymbolIcon
+       
     }, data() {
         return {
             form: {
